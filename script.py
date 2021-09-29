@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-def get_meaning(word):
+def get_meaning(word, verbose=False):
     phrase = f"define+{word}"
     url = "https://www.google.com/search"
     params ={"q":phrase,
@@ -9,6 +9,7 @@ def get_meaning(word):
             "aqs":"chrome.0.69i59.5749j0j9",
             "sourceid":"chrome-mobile",
             "ie":"UTF-8"}
+    if verbose: print("\rsearching...",end="")
     res = requests.get(url, params)
     soup = BeautifulSoup(res.text, 'html.parser')
     #print(soup.prettify())
@@ -23,5 +24,5 @@ def get_meaning(word):
 if __name__ == "__main__":
     import sys
     WORD = sys.argv[1]
-    meaning = get_meaning(WORD)
-    print(meaning)
+    meaning = get_meaning(WORD, verbose=True) or "\rSorry, Check Spelling or try again!"
+    print("\r", meaning)
