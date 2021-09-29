@@ -10,10 +10,12 @@ This program is basically a webscraper. It uses the *define* search keyword, sea
 ### How to use
 
 Using this is pretty straight forward. This is a command line interface program. So all you need is a terminal like bash, powershell or termux.
-command: ```shell
+command:
+```shell
 python script.py <your-word>```
 
-example: ```bash
+example:
+```console
 ../word-meaning $ python script.py oasis
  a fertile spot in a desert, where water is found.
 /word-meaning $```
