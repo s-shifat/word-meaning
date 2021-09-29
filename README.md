@@ -11,7 +11,7 @@ This program is basically a webscraper. It uses the *define* search keyword, sea
 
 Using this is pretty straight forward. This is a command line interface program. So all you need is a terminal like bash, powershell or termux.
 Command:
-```shell
+```console
 python script.py <your-word>
 ```
 
@@ -26,11 +26,9 @@ Sample Execution:
 
 ### Limitations
 
-	-  There are some words that by default does not show up with a *define* keyword google search like *define internet*. Probably I would add a scraper for these patterns.
-	
-	-  Some words does not just show up like *define potato* shows properly in the google search but does not show up in this program. I have not found the reason yet.
-
-	-  It might also spit out ambigous result if the first google result is a google add.
+* There are some words that by default does not show up with a *define* keyword google search like *define internet*. Probably I would add a scraper for these patterns.
+* Some words does not just show up like *define potato* shows properly in the google search but does not show up in this program. I have not found the reason yet.
+* It might also spit out ambigous result if the first google result is a google add.
 
 
 You are most welcome to add/comtribute to this little project!
