@@ -13,18 +13,18 @@ Using this is pretty straight forward. This is a command line interface program.
 command: ```shell
 python script.py <your-word>```
 
-example: ```console
+example: ```bash
 ../word-meaning $ python script.py oasis
  a fertile spot in a desert, where water is found.
 /word-meaning $```
 
 ### Limitations
 
-	* There are some words that by default does not show up with a *define* keyword google search like "define internet*. Probably I need to add a scraper for these patterns.
+	-  There are some words that by default does not show up with a *define* keyword google search like "define internet*. Probably I need to add a scraper for these patterns.
 	
-	* Some words does not just show up like *define potato* shows properly in the google search but does not show up in this program. I have not found the reason yet.
+	-  Some words does not just show up like *define potato* shows properly in the google search but does not show up in this program. I have not found the reason yet.
 
-	* It might also spit out ambigous result if the first google result is a google add.
+	-  It might also spit out ambigous result if the first google result is a google add.
 
 
 You are most welcome to add/comtribute to this little project!
