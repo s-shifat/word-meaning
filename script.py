@@ -1,16 +1,27 @@
 from bs4 import BeautifulSoup
 import requests
-import sys
-word = sys.argv[1]
-search = f"https://www.google.com/search?q=define+{word}&oq=define+{word}&aqs=chrome.0.69i59.5749j0j9&sourceid=chrome-mobile&ie=UTF-8"
-res = requests.get(search)
-raw = res.text
-soup = BeautifulSoup(res.text, 'html.parser')
-#print(soup.prettify())
-class_ = "BNeawe s3v9rd AP7Wnd"
-foo = soup.find_all("div", {"class":class_})[0]
-je = foo.find_all("div",{"class":class_.split()})
-for tag in je:
-	if tag['class'] == class_.split():
-		if not tag.span and not tag.br:
-			print(tag.text)
+
+def get_meaning(word):
+    phrase = f"define+{word}"
+    url = "https://www.google.com/search"
+    params ={"q":phrase,
+            "oq":phrase,
+            "aqs":"chrome.0.69i59.5749j0j9",
+            "sourceid":"chrome-mobile",
+            "ie":"UTF-8"}
+    res = requests.get(url, params)
+    soup = BeautifulSoup(res.text, 'html.parser')
+    #print(soup.prettify())
+    class_ = "BNeawe s3v9rd AP7Wnd"
+    outer_class = soup.find_all("div", {"class":class_})[0]
+    inner_classes = outer_class.find_all("div",{"class":class_.split()})
+    for tag in inner_classes:
+        if tag['class'] == class_.split():
+            if not tag.span and not tag.br:
+                return tag.text
+
+if __name__ == "__main__":
+    import sys
+    WORD = sys.argv[1]
+    meaning = get_meaning(WORD)
+    print(meaning)
