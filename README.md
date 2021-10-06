@@ -13,7 +13,7 @@ and finds out the meaning of the word.
 
 Using this is pretty straight forward. This is a command line interface program. So all you need is a terminal like bash, powershell or termux with python 3x  installed.
 Command:
-```bash`
+```bash
 python main.py [your-word-here]
 ```
 Or,
@@ -28,7 +28,7 @@ Sample Execution:
 
 ### Limitations
 
-One limitation is that I haven't added the functionality to deal with a typo. I will add this some time soon. Not to mention: **you are warmly welcome to add/comtribute to this little project!**
+One limitation is that I haven't added the functionality to deal with a typo. I will add this some time soon. Not to mention: **you are warmly welcome to add/contribute to this little project!**
 
 
 ### Motivation
