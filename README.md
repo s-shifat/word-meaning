@@ -24,7 +24,9 @@ sh word.sh [your-word-here]
 
 Sample Execution:
 ```console
-.../word-meaning $ python main.py ablaze                                                         ABLAZE
+.../word-meaning $ python main.py ablaze            
+
+ABLAZE
 
 Meaning-1:
    adjective                                                    lighted up by or as by fire or flame
