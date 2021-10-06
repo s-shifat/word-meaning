@@ -23,29 +23,8 @@ sh word.sh [your-word-here]
 ```
 
 Sample Execution:
-```console
-ZEAL
 
-Meaning-1:
-   noun
-    a feeling of strong eagerness (usually in favor of a person or cause)
-   Example: “he felt a kind of religious zeal”
-
-Meaning-2:
-   noun
-    prompt willingness
-   Example: “they disliked his zeal in demonstrating his superiority”
-
-Meaning-3:
-   noun
-    excessive fervor to do something or accomplish some end
-   Example: “he had an absolute zeal for litigation”
-
-USAGE:
-    Zeal is dedication or enthusiasm for something. If you have zeal, you're willing, energized, and motivated.
-
-.../Python_Projects/word-meaning $
-```
+![sample-execution](./assests/sample-execution.jpg)
 
 ### Limitations
 
