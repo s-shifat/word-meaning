@@ -24,34 +24,27 @@ sh word.sh [your-word-here]
 
 Sample Execution:
 ```console
-.../word-meaning $ python main.py ablaze            
-
-ABLAZE
+ZEAL
 
 Meaning-1:
-   adjective
-    lighted up by or as by fire or flame
-   Example: “forests set ablaze (or afire) by lightning”
+   noun
+    a feeling of strong eagerness (usually in favor of a person or cause)
+   Example: “he felt a kind of religious zeal”
 
 Meaning-2:
-   adjective
-    resembling flame in brilliance or color
-   Example: “maple trees ablaze in autumn”
+   noun
+    prompt willingness
+   Example: “they disliked his zeal in demonstrating his superiority”
 
 Meaning-3:
-   adjective
-    lighted with red light as if with flames
-   Example: “streets ablaze with lighted Christmas trees”
-
-Meaning-4:
-   adjective
-    keenly excited (especially sexually) or indicating excitement
-   Example: “"his face all ablaze with excitement"- Bram Stoker”
+   noun
+    excessive fervor to do something or accomplish some end
+   Example: “he had an absolute zeal for litigation”
 
 USAGE:
-    Use the adjective ablaze to describe something that's on fire. Once your campfire is ablaze, you cantoast marshmallows over it.
+    Zeal is dedication or enthusiasm for something. If you have zeal, you're willing, energized, and motivated.
 
-.../word-meaning $
+.../Python_Projects/word-meaning $
 ```
 
 ### Limitations
