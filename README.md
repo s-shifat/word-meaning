@@ -24,7 +24,7 @@ sh word.sh [your-word-here]
 
 Sample Execution:
 
-![sample-execution](./assests/sample-execution.jpg?raw=true)
+![sample-execution](https://raw.githubusercontent.com/s-shifat/word-meaning/main/assests/sample_execution.jpg)
 
 ### Limitations
 
