@@ -39,4 +39,4 @@ I built up this simple program for two reasons:
 2. This happens to me quite frequently: I search for a word in the internet, then somehow 30 minutes later I find my self watching videos on youtube about how to pour water into a glass. You get the idea. Hopefully this little CLI program will keep me away from the clutter of the internet. 
 
 ### LameFact
-I wrote and tested this program entirely in my android phone with Termux installed. I installed git, python and vim in it. Worked fine.
+I wrote and tested this program entirely in my android phone with Termux installed. I used git, python and vim in it. Worked fine.
