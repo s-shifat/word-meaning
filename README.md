@@ -29,23 +29,25 @@ Sample Execution:
 ABLAZE
 
 Meaning-1:
-   adjective                                                    lighted up by or as by fire or flame
+   adjective                                            lighted up by or as by fire or flame
    Example: “forests set ablaze (or afire) by lightning”
-                                                        Meaning-2:
+
+Meaning-2:
    adjective
-        resembling flame in brilliance or color
+    resembling flame in brilliance or color
    Example: “maple trees ablaze in autumn”
 
 Meaning-3:
    adjective
-        lighted with red light as if with flames
+    lighted with red light as if with flames
    Example: “streets ablaze with lighted Christmas trees”
-                                                        Meaning-4:
+
+Meaning-4:
    adjective
-        keenly excited (especially sexually) or indicating excitement
+    keenly excited (especially sexually) or indicating excitement
    Example: “"his face all ablaze with excitement"- Bram Stoker”
 
-USAGE:                                                          Use the adjective ablaze to describe something that's on fire. Once your campfire is ablaze, you can toast marshmallows over it.
+USAGE:                                                   Use the adjective ablaze to describe something that's on fire. Once your campfire is ablaze, you cantoast marshmallows over it.
                                                         .../word-meaning $
 ```
 
