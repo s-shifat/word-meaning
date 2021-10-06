@@ -17,11 +17,11 @@ class Formatter:
     ITALIC = "\033[3m"
     
     @classmethod
-    def format(self,string, *args):
+    def format(cls, string, *args):
     	formatted_string = ''
     	for arg in args:
-    		formatted_string += self().__getattribute__(arg.upper())
-    	return formatted_string + string + self().END
+    		formatted_string += cls().__getattribute__(arg.upper())
+    	return formatted_string + string + cls().END
 
 class Exracter:
 	CLASSES_OF_INTEREST = ["definition","pos-icon", "example"]
