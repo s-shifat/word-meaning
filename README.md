@@ -29,7 +29,8 @@ Sample Execution:
 ABLAZE
 
 Meaning-1:
-   adjective                                            lighted up by or as by fire or flame
+   adjective
+    lighted up by or as by fire or flame
    Example: “forests set ablaze (or afire) by lightning”
 
 Meaning-2:
