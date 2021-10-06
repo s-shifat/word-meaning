@@ -21,6 +21,7 @@ Or,
 ```bash
 sh word.sh [your-word-here]
 ```
+And make sure you are connected to internet.
 
 Sample Execution:
 
