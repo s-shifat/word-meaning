@@ -9,10 +9,23 @@ This program is basically a webscraper.
 You pass a word to this program, then it scrapes [this website](https://www.vocabulary.com/dictionary/)
 and finds out the meaning of the word.
 
+### Determinancies
+This is a command line interface program. So all you need is a terminal like bash, powershell or [termux](https://termux.com/) with python 3x  installed.
+Meaning you can use it in Android, Linux, Windows, Mac.
+As it is a web scraper so you need an internet connection.
+
+To install the libraries in [requirements.txt](./requirements.txt) use:
+
+```bash
+pip install -r requirements.txt
+```
+
+
 ### How to use
 
-Using this is pretty straight forward. This is a command line interface program. So all you need is a terminal like bash, powershell or termux with python 3x  installed.
-Command:
+Using this is pretty straight forward.
+Turn on wifi or data, then in your terminal,
+Type:
 ```bash
 python main.py [your-word-here]
 ```
@@ -21,7 +34,6 @@ Or,
 ```bash
 sh word.sh [your-word-here]
 ```
-And make sure you are connected to internet.
 
 Sample Execution:
 
