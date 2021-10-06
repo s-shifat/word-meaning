@@ -47,8 +47,10 @@ Meaning-4:
     keenly excited (especially sexually) or indicating excitement
    Example: “"his face all ablaze with excitement"- Bram Stoker”
 
-USAGE:                                                   Use the adjective ablaze to describe something that's on fire. Once your campfire is ablaze, you cantoast marshmallows over it.
-                                                        .../word-meaning $
+USAGE:
+    Use the adjective ablaze to describe something that's on fire. Once your campfire is ablaze, you cantoast marshmallows over it.
+
+.../word-meaning $
 ```
 
 ### Limitations
