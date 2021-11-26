@@ -35,7 +35,7 @@ Or,
 sh word.sh [your-word-here]
 ```
 
-Sample Execution:
+Sample Execution (in android ie Termux):
 
 ![sample-execution](https://raw.githubusercontent.com/s-shifat/word-meaning/main/assests/sample_execution.jpg)
 
